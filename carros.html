@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Cars</title>
+    <link rel="stylesheet" href="carros.css">
+</head>
+<body>
+    <header>
+        <h1>CLOUD CARS</h1>
+        <nav>
+            <ul>
+                <li><a href="salao.html">Carros</a></li>
+                <li><a href="payment">Pagamento</a></li>
+                <li><a href="contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo à nossa loja de carros</h2>
+        <p>Confira os melhores carros do mercado.</p>
+    </section>
+
+    <section id="cars">
+        <h2>Carros Disponíveis</h2>
+        <div class="car-grid">
+            <div class="car-item">
+                <img src="lam.jpg" width="" height="" alt="Carro 1">
+                <h3>Lamborghini Revuelto</h3>
+                <p>Descrição do Carro 1.</p>
+                <p>626.079,00 £</p>
+                <button>Ver Detalhes</button>
+            </div>
+            
+            <div class="car-grid">
+                <div class="car-item">
+                    <img src="fer.jpg" width="" height="" alt="Carro 2">
+                    <h3>Ferrari Purosangue</h3>
+                    <p>Descrição do Carro 1.</p>
+                    <p>1.336.000,00 £</p>
+                    <button>Ver Detalhes</button>
+                </div>
+             
+            <div class="car-grid">
+                    <div class="car-item">
+                        <img src="mas.jpg" width="" height="" alt="Carro 3">
+                        <h3>Maserati MC20</h3>
+                        <p>Descrição do Carro 1.</p>
+                        <p>302.000,00 £</p>
+                        <button>Ver Detalhes</button>
+                    </div>  
+                    
+                    <div class="car-grid">
+                        <div class="car-item">
+                            <img src="por4.jpg" width="" height="" alt="Carro 3">
+                            <h3>Porsche 911 GT3 Rs</h3>
+                            <p>Descrição do Carro 1.</p>
+                            <p>291.833,00 £</p>
+                            <button>Ver Detalhes</button>
+                        </div>        
+        </div>
+    </section>
+
+    <section id="payment">
+        <h2>Opções de Pagamento</h2>
+        <form id="payment-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="payment-method">Método de Pagamento:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="credit-card">Cartão de Crédito</option>
+                <option value="financing">Financiamento Bancário</option>
+            </select>
+            
+            <div id="credit-card-info" style="display: none;">
+                <label for="card">Cartão de Crédito:</label>
+                <input type="text" id="card" name="card">
+            </div>
+            
+            <button type="submit">Pagar</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco através das seguintes plataformas:</p>
+        <ul>
+            <li><a href="mailto:contato@lojadecarros.com">Email</a></li>
+            <li><a href="https://wa.me/351914814961" target="_blank">WhatsApp</a></li>
+            <li><a href="https://instagram.com/jociel_lima84" target="_blank">Instagram</a></li>
+            <li><a href="https://facebook.com/lojadecarros" target="_blank">Facebook</a></li>
+        </ul>
+    </section>
+
+    <script src="carros.js"></script>
+</body>
+</html>
